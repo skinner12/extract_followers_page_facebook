@@ -23,8 +23,7 @@ func main() {
     var cell *xlsx.Cell
 		var err error
 		
-	//dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
-	dir, err := filepath.Abs("/home/tux/code/go/extract_followers_page_facebook")
+	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 	if err != nil {
 		panic(err)
 	}
